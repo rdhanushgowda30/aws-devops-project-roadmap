@@ -1,0 +1,22 @@
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Docker
+*.log
+.env
+
+# Jenkins
+jenkins_home/
+workspace/
+*.log
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
